@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int f,n,i;
+    f=i=1;
+    printf("enter a number to factorial:");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        f*=i;
+        i++;
+    }
+    printf("the factorial of %d is: %d",n,f);
+    return 0;
+}
+
+output:enter a number to factorial:3
+the factorial of 3 is: 6
